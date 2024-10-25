@@ -1,2 +1,5 @@
-# web-330
-Bellevue University: WEB 330 Enterprise JavaScript II
+# WEB 330 Enterprise JavaScript II
+## Contributors
+- Richard Krasso 
+- Wendy Rzechula
+
