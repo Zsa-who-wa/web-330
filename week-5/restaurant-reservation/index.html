@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<!--
+  Pragmatic JavaScript
+  Chapter 2 Programming Assignment
+  Author: Wendy Rzechula
+  Date: 11/21/2024
+  Filename:
+-->
+  
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Reservation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Table Reservations</h1>
+      <form id="reservationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="tableNumber">Select a Table:</label>
+        <select id="tableNumber" name="tableNumber">
+          <option value="1">Table 1</option>
+          <option value="2">Table 2</option>
+          <option value="3">Table 3</option>
+          <option value="4">Table 4</option>
+        </select>
+        <button type="submit">Reserve</button>
+      </form>
+      <p id="message"></p>
+    </div>
+  </body>
+</html>
+
+<!--
+SOURCES:
+Duckett, J. (2011). HTML and CSS: Design and Build Websites (1st ed.). John Wiley & Sons.
+-->

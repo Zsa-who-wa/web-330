@@ -1,0 +1,77 @@
+/*
+  Pragmatic JavaScript
+  Chapter 2
+  Programming Assignment
+
+  Author: Wendy Rzechula
+  Date: 11/21/2024
+  Filename:
+*/
+
+/* CSS Styles */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: #daf1c6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);;
+  width: 300px;
+  text-align: left;
+}
+
+h1 {
+  color: #333333;
+  text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #545454;
+}
+
+input, select, button {
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #1e7933;
+  margin-top: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#message {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333333;
+}
+
+/*
+SOURCES:
+Duckett, J. (2011). HTML and CSS: Design and Build Websites (1st ed.). John Wiley & Sons.
+*/
