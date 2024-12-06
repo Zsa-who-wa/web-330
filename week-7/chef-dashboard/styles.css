@@ -1,0 +1,40 @@
+/*
+  Pragmatic JavaScript
+  Chapter 3
+  Programming Assignment
+
+  Author: Wendy Rzechula
+  Date: 12/07/24
+  Filename:
+*/
+
+/* CSS styles */
+body {
+  font-family: Arial, san-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: #ff6f61;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+
+.chef-container {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)
+  border radius 5px;
+}
+
+.content {
+  color: red;
+  font-weight: bold;
+}
